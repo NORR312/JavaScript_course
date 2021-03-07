@@ -111,8 +111,25 @@ console.log(num1 ===num2) // false
 // mdn - mozilla developer network
 //############################################################################################
 // FUNCTION
-function calculateAge(year) {
-    return 2021 - year
-}
-const myAge = calculateAge(1982)
-console.log(myAge)
+//function calculateAge(year) {
+    //return 2021 - year
+//}
+//const myAge = calculateAge(1982)
+//console.log(myAge)
+//
+//function logInfoAbout(name, year) {
+    //const age = calculateAge(year)
+    //if (age > 0) {
+        //console.log('person with name',name, age, 'Years old')
+    //} else {
+        //console.log("It's already future!")
+    //}
+//    
+//}
+//logInfoAbout('Alissa', 1982)
+//logInfoAbout('Jani', 1974)
+//logInfoAbout('Lotta', 2021)
+
+//##########################################################################################
+// ARRAYS ############
+//####################
