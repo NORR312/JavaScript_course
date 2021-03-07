@@ -76,5 +76,43 @@
 //##############################################################################
 //CONDITIONAL OPERATORS
 //###############################################################################################
-const courseStatus = 'pending'
+//const courseStatus = 'pending1' //ready, fail, pending
+//if (courseStatus === 'ready'){
+//console.log('Course is ready for studying')
+//}
+//else if (courseStatus === 'pending'){
+    //console.log('Course is in progress')
+//}
+//else {
+    //console.log('Course failed')
+//}
 
+const isReady = true
+if (isReady) {
+    console.log('Everything is ready')
+}
+else {
+    console.log('Nothing is ready')
+}
+// ternary expression  #######################################################################
+//############################################################################################
+// equivalent to previous statement               ############################################
+isReady ? console.log('Yes'): console.log('No') //############################################
+//############################################################################################
+// == or ===
+// == check values only
+// === check values and data types
+const num1 = 42
+const num2 ='42'
+console.log(num1 == num2) // true
+console.log(num1 ===num2) // false 
+//############################################################################################
+// BOOLEAN LOGIC, logical operators
+// mdn - mozilla developer network
+//############################################################################################
+// FUNCTION
+function calculateAge(year) {
+    return 2021 - year
+}
+const myAge = calculateAge(1982)
+console.log(myAge)
