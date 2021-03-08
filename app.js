@@ -133,5 +133,7 @@ console.log(num1 ===num2) // false
 //##########################################################################################
 // ARRAYS ############
 //####################
-const cars = ['Mazda', 'Mersedes', 'Ford']
+//const cars = ['Mazda', 'Mersedes', 'Ford']
+const cars = new Array('Mazda', 'Mersedes', 'Ford')
 console.log(cars)
+console.log('test')
