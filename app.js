@@ -14,3 +14,4 @@ const greet2 = function greet2(name){
 //console.log(typeof greet)
 //console.log(typeof greet2)
 console.time('string')
+
