@@ -1,0 +1,6 @@
+VSCODE 
+#############################################################
+ctrl+shift+p
+in html: emmet
+ul>li*5 -> create list with 5 elements
+script:src -> includes script into html code
